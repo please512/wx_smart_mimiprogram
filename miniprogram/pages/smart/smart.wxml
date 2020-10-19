@@ -1,0 +1,38 @@
+<view class="page">
+    <view class="info">
+        <!-- <view class="imgbox">
+            <image src="{{avatarUrl}}" class="img"></image>
+        </view>
+        <view class="name">
+            <text>{{nickName}}</text>
+        </view> -->
+        <swiper autoplay="{{true}}" interval="{{2500}}" circular="{{true}}">
+            <block wx:for="{{swipeList}}" wx:key="index">
+                <swiper-item>
+                    <image src="{{item.src}}" class="img"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <!--  -->
+        <view class="welcome">欢迎使用</view>
+    </view>
+    <view class="contentbox">
+        <view class='item' wx:for="{{piclist}}" wx:key="index" bindtap="navi" data-url="{{item.url}}">{{item.name}}</view>
+    </view>
+
+    <view class="contentbox">
+        <view class='item seconditem' wx:for="{{facelist}}" wx:key="index" bindtap="navi" data-url="{{item.url}}">{{item.name}}</view>
+    </view>
+
+    <view class="contentbox last">
+        <text>更多服务，敬请期待</text>
+    </view>
+
+    <button class="contentbox last" style="width:100%;margin-top:50px;" open-type='share'>分享给朋友</button>
+    <view style="line-height:12px;margin:10px 0;margin-bottom:30px;">
+        <text style="color:#000;font-size:12px;font-weight:600;">注：若您已授权过个人信息，分享给朋友时展示您的头像和昵称，否则展示开发者的头像和昵称。</text>
+    </view>
+    <!-- <view class="contentbox">
+        <view class='item' wx:for="{{audiolist}}" wx:key="index" bindtap="navi" data-url="{{item.url}}">{{item.name}}</view>
+    </view> -->
+</view>

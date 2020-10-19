@@ -1,0 +1,45 @@
+/* miniprogram/pages/zhiwushibie/zhiwushibie.wxss */
+.page{
+  padding: 10px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: 2px blueviolet solid;
+  margin:0 auto;
+  margin-top:30px;
+  color: blueviolet;
+}
+.btn:active{
+  background: blueviolet;
+  color: #fff;
+}
+.imgbox{
+  display: flex;
+  justify-content: center;
+  width:80%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top:20px;
+  border-radius: 36px;
+  overflow: hidden;
+}
+.img{
+  height: 100%;
+}
+.contenttitle{
+  font-weight: 700;
+  margin-top: 20px;
+  color:blueviolet ;
+}
+.text{
+  text-align: center;
+  margin: 5px 0;
+  color: blueviolet;
+}

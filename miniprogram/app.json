@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/smart/smart",
+    "pages/zengqiangduibi/zengqiangduibi",
+    "pages/cheliangshibie/cheliangshibie",
+    "pages/zhiwushibie/zhiwushibie",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/dongwushibie/dongwushibie",
+    "pages/huobishibie/huobishibie",
+    "pages/dibiaoshibie/dibiaoshibie",
+    "pages/renlianqiege/renlianqiege",
+    "pages/renliutongji/renliutongji",
+    "pages/yuyinshibie/yuyinshibie",
+    "pages/yuyinhecheng/yuyinhecheng",
+    "pages/lashenhuifu/lashenhuifu",
+    "pages/tuxiangquwu/tuxiangquwu",
+    "pages/tongyongshibie/tongyongshibie",
+    "pages/logoshibie/logoshibie"
+  ],
+  "window": {
+    "backgroundColor": "black",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "中原小斑鸠",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

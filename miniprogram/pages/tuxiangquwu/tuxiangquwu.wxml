@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="title">
+    <button class="btn" open-type="getUserInfo" bindgetuserinfo="start">开始识别</button>
+    <view class="imgbox">
+      <image class="img" src="{{url}}" wx:if="{{image}}"></image>
+      <image class="img" src="../../images/default.jpg" wx:if="{{!image}}"></image>
+    </view>
+     <view wx:if="{{image}}" class="contenttitle">此物图像去雾后是 (长按保存)</view>
+     <view class="imgbox">
+      <image class="img" src="{{image}}" data-url="{{image}}" wx:if="{{image}}" bindlongpress="saveImage"></image>
+    </view>
+  </view>
+</view>

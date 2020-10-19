@@ -1,0 +1,43 @@
+/* miniprogram/pages/home/home.wxss */
+.page{
+    padding:0 20px;
+}
+.imgbox{
+    width:80px;
+    height: 80px;
+    border-radius:10px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top:80px;
+}
+.img{
+    width:100%;
+    height: 100%;
+}
+.bor{
+    height: 1px;
+    border-bottom: 1px #ccc solid;
+    margin-top:30px;
+}
+.tip1{
+    font-size: 14px;
+    color: #000;
+    margin-top:20px;
+}
+.tip2{
+    font-size: 12px;
+    margin-top:10px;
+    color: #999;
+}
+.btn{
+    font-weight: 500;
+    margin-top:40px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    background: rgb(19, 175, 18);
+}
+.layer{
+    height: 100vh;
+}
